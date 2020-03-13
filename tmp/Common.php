@@ -936,7 +936,7 @@ EOF;
         } else {
             //$url = $isSecure ? 'https://secure.gravatar.com' : 'http://www.gravatar.com';
             //$url .= '/avatar/';
-            $url = 'https://dn-avacdn.qbox.me/avatar/';
+            $url = 'https://dn-qiniu-avatar.qbox.me/avatar/';
         }
 
         if (!empty($mail)) {
